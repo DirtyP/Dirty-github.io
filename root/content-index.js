@@ -7,9 +7,13 @@ window.onload = function () {
     script.onload = function () {
         let course_list = []
         var type = parseInt(window.location.href.split("?")[1].split("=")[1]) //split分割成两个数组split("?")[1]取后面的
-        console.log(typeof type)
+        var url = decodeURI(window.location.href);
+        var aa = url.indexOf('=');
+        if (aa > -1) {
+            url = url.substring(aa + 1);
+            console.log(url)
+        }
         for (let key in course_data) {
-            console.log(course_data[key].type)
             if (course_data[key].type === type) {
                 course_list = course_data[key].course_list
             }

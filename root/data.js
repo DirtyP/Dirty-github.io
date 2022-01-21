@@ -115,10 +115,10 @@ let course_data = [
 ]
 let LOGO_BASE_URL = "https://icloud.aurine.cn/aurine-app/smartlive/pushsetting/logo/"
 let data = {//首页数据
-    img_info: [{ url: LOGO_BASE_URL + "sanxin.png", title: '三星/Touchwiz/One UI', href: "./content.html?type=1" },
-    { url: LOGO_BASE_URL + "huawei.png", title: '华为/荣耀/Magic/EMUI/HarmonyOS', href: "./content.html?type=2" },
-    { url: LOGO_BASE_URL + "xiaomi.png", title: '小米/红米/MIUI', href: "./content.html?type=3" },
-    { url: LOGO_BASE_URL + "vivo.png", title: 'Vivo/Funtouch OS', href: "./content.html?type=4" },
-    { url: LOGO_BASE_URL + "oppo.png", title: 'OPPO/ColorOS', href: "./content.html?type=5" },
-    { url: LOGO_BASE_URL + "meizu.png", title: '魅族/Flyme', href: "./content.html?type=6" },]
+    img_info: [{ url: LOGO_BASE_URL + "sanxin.png", title: '三星/Touchwiz/One UI', href: "content.html?type=1" },
+    { url: LOGO_BASE_URL + "huawei.png", title: '华为/荣耀/Magic/EMUI/HarmonyOS', href: "content.html?type=2" },
+    { url: LOGO_BASE_URL + "xiaomi.png", title: '小米/红米/MIUI', href: "content.html?type=3" },
+    { url: LOGO_BASE_URL + "vivo.png", title: 'Vivo/Funtouch OS', href: "content.html?type=4" },
+    { url: LOGO_BASE_URL + "oppo.png", title: 'OPPO/ColorOS', href: "content.html?type=5" },
+    { url: LOGO_BASE_URL + "meizu.png", title: '魅族/Flyme', href: "content.html?type=6" },]
 }
